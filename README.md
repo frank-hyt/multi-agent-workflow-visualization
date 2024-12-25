@@ -1,6 +1,6 @@
 # Multi-Agent Workflow Visualization
 
-[![GitHub license](https://img.shields.io/github/license/frank-hyt/multi-agent-workflow-visualization)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/frank-hyt/multi-agent-workflow-visualization?cacheSeconds=3600)](LICENSE)
 
 
 
