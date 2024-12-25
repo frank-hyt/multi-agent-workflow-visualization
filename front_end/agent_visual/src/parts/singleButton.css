@@ -1,0 +1,35 @@
+.rounded-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px; /* 圆角 */
+    background-color: #007bffe4;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-button:hover {
+    background-color: #015dbf; /* Hover 背景颜色变深 */
+    transform: scale(1.05); /* 缩放效果 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* 增强阴影效果 */
+  }
+  
+  .rounded-button:active {
+    transform: scale(0.95); /* 点击时缩小 */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-icon {
+    margin-right: 8px; /* 图标和文字的间距 */
+    font-size: 16px; /* 图标大小 */
+  }
+  
+  .button-text {
+    font-weight: bold;
+  }
+  

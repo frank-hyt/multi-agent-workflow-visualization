@@ -1,0 +1,69 @@
+/* 浮窗容器 */
+.floating-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background: #2d2d2d;
+    color: white;
+    border-radius: 10px;
+    z-index: 1001;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 浮窗头部 */
+  .floating-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 16px;
+  }
+  
+  /* 关闭按钮 */
+  .close-button {
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .close-button:hover {
+    background: darkred;
+  }
+  
+  /* 浮窗内容 */
+  .floating-body {
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  /* 背景遮罩 */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .editable-line {
+    background: #282828;
+  }
+
+  .custom-code-block {
+    font-size: 18px;  /* 设置字体大小 */
+    font-family: 'Courier New', monospace;  /* 设置字体 */
+  }

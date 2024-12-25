@@ -1,0 +1,24 @@
+Task started.
+***Time Step 0***
+**Now Input Node is Running
+Input is not a generator.
+gen data
+**Got one input
+***Time Step 1***
+**Now perform Node[Name]
+*preprocess*
+*decision_make*
+*act_something*
+**Node[Name]: Act[something] -> Node[Name]**
+something doing
+***Time Step 2***
+**Now perform Node[Name]
+*preprocess*
+*decision_make*
+*act_output*
+**Node[Name]: Act[output] -> Node[Name]**
+output to outNode
+***Time Step 3***
+**Now perform Node[Name]
+output
+Task completed.

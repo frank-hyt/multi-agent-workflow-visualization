@@ -1,0 +1,17 @@
+Task started.
+********************Time Step 0********************
+Now Input Node is Running
+Input is not a generator.
+gen data
+Got one input
+********************Time Step 1********************
+Now perform Node[node_185709]
+preprocess
+decision_make
+		Node tack the Action[something]
+Node[node_185709]: Action[something] -->> Node[node_d5c294]
+act_something
+********************Time Step 2********************
+Now perform Node[node_d5c294]
+output
+Task completed.

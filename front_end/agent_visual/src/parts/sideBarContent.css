@@ -1,0 +1,126 @@
+.code-container{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: #000000ef;
+  display: flex;
+  flex-direction: column; /* 垂直排列 */
+  align-items: start; /* 左右居中 */
+}
+.code-container-heder{
+  color: #ffffff;
+  padding: 8px;
+  display: flex;
+  font-size: 15px;
+  justify-content: start;
+}
+.code-container-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
+  font-size: 10px;
+  font-family: monospace;
+  border: 6px solid #464646;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  white-space: pre;
+  color: #ffffff;
+}
+
+.item-rectangle{
+  padding: 2px;
+  border: 2px dashed #949494;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.edit-button:hover {
+  border: 1px solid #ffffff;
+}
+
+.edit-button-convert {
+  background: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.edit-button-convert:hover {
+  border: 1px solid #2a2929;
+}
+
+.confirm-button {
+  border: none;
+  color: #ffffff;
+  background-color: #199d38ef;
+}
+.confirm-button:hover {
+  background-color: #28df52ef;
+  transform: scale(1.03); /* 缩放效果 */
+}
+
+.cancel-button {
+  border: none;
+  color: #ffffff;
+  background-color: #9d1919ef;
+}
+.cancel-button:hover {
+  background-color: #e33131ef;
+  transform: scale(1.03); /* 缩放效果 */
+}
+
+
+.delete-button {
+  border: none;
+  color: #ffffff;
+  background-color: #9d1919ef;
+}
+.delete-button:hover {
+  background-color: #e33131ef;
+  transform: scale(1.03); /* 缩放效果 */
+}
+
+.lines-container{
+  display: flex;
+  flex-direction: column; /* 每行一个 */
+  align-items: flex-start; /* 子组件右对齐 */
+}
+
+.column-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.clickable-rectangle{
+  cursor: pointer;
+}
+.clickable-rectangle:hover {
+  background-color: #353535;
+  transform: scale(1.05);
+}
+
+.center-text-rectangle{
+  display: flex;
+  justify-content: center;
+}
+
+.dynamic-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+  

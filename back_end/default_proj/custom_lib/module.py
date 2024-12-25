@@ -1,0 +1,1 @@
+THE_STR = "aaa"
